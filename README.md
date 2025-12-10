@@ -139,7 +139,7 @@ d = decompress(read = f"test", verbose = True)
 Output:
 
 ```
-----------(Decompression Cycled-Based Compressor)----------
+----------(Compression Cycled-Based Compressor)----------
 
 text = 'In wireless sensor networks, the energy cost of transmitting a single byte is often far higher than the cost of executing hundreds or even thousands of local instructions. As a consequence, lightweight compression techniques are essential for extending dev'
 
