@@ -151,10 +151,10 @@ header = ' enstoirhcaglfudw,ymxvqIkb.Ap§'
 
 compress_message = bytearray(b' enstoirhcaglfudw,ymxvqIkb.Ap\xc2\xa7\x07h0\x8c\x8eDQ,\\k&\r\xc6\x1e!\xd39K#\x0cz\xf7\x13\\\xf4\xc6\x0b\x13\xe13\x0b\r\x05\x10\xb0\xc7(\xf8\xf3(Es\xcc\xb4\xf0F\x9c!\x9c\x8d3\x82\xd39^\xe2k\x9e\x97\xe5\xef\x98Xi\xdf`F@\x8a\xe3H\ti\x9d\xdf\x10X\x11\\\xf4wx#\xa1bc}\xe6\x17b~\xbf\x8a\n\xf7b@\xdf-\xe4:8C9\x83!\x0c\xe6\xbd\xcf\x80FDB\xed2\xf3\xb0\x81\xbeE\x04e"%\x98A\x1d=\xc6\x97\xe6X\x10\xb0\xd0$\x04')
 
-30(header) + 138(text compressed) = 169
+30(header) + 138(text compressed) = 169 Bytes
 
 ----------(Decompression Cycled-Based Compressor)----------
-Read file: teste_256
+Read file: test
 
 symb_tab = {' ': '01', 'e': '001', 'n': '011', 's': '0001', 't': '0011', 'o': '0111', 'i': '00001', 'r': '00011', 'h': '00111', 'c': '01111', 'a': '000001', 'g': '000011', 'l': '000111', 'f': '001111', 'u': '011111', 'd': '0000001', 'w': '0000011', ',': '0000111', 'y': '0001111', 'm': '0011111', 'x': '0111111', 'v': '00000001', 'q': '00000011', 'I': '00000111', 'k': '00001111', 'b': '00011111', '.': '00111111', 'A': '01111111', 'p': '000000001'}
 

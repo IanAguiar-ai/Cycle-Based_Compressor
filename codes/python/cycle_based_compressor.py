@@ -31,7 +31,7 @@ def compress(text:str, *, save:str = None, verbose:bool = False) -> str:
         compress_message.append(byte_val)
 
     print(f"\n{compress_message = }") if verbose else None
-    print(f"\n{len(header)}(header) + {len(compress_symbolic)//8}(text compressed) = {len(compress_message)}") if verbose else None
+    print(f"\n{len(header)}(header) + {len(compress_symbolic)//8}(text compressed) = {len(compress_message)} Bytes") if verbose else None
 
     if save != None:
         with open(save, "wb") as arq:
