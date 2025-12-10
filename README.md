@@ -139,6 +139,8 @@ d = decompress(read = f"test", verbose = True)
 Output:
 
 ```
+----------(Decompression Cycled-Based Compressor)----------
+
 text = 'In wireless sensor networks, the energy cost of transmitting a single byte is often far higher than the cost of executing hundreds or even thousands of local instructions. As a consequence, lightweight compression techniques are essential for extending dev'
 
 freq_tab = [(' ', 38), ('e', 30), ('n', 22), ('s', 22), ('t', 20), ('o', 16), ('i', 15), ('r', 13), ('h', 10), ('c', 9), ('a', 9), ('g', 8), ('l', 6), ('f', 6), ('u', 6), ('d', 5), ('w', 3), (',', 2), ('y', 2), ('m', 2), ('x', 2), ('v', 2), ('q', 2), ('I', 1), ('k', 1), ('b', 1), ('.', 1), ('A', 1), ('p', 1)]
