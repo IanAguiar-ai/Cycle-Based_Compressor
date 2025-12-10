@@ -2,9 +2,9 @@
 
 This repository provides C and Python reference implementations of the cycle-based compressor, a deterministic, prefix-free coding scheme designed for short IoT payloads and resource-constrained devices. The code accompanies the paper:
 
-Cycle-Based Compressor – Article_IoT_Compressor-12.pdf (link in future)
+*Cycle-Based Compressor* (link in future)
 
-The compressor assigns each symbol to a bit pattern of the form 0^m 1^j (with m ≥ 1, j ≥ 1), ordered by empirical frequency. This structure yields:
+The compressor assigns each symbol to a bit pattern of the form $0^m 1^j$ (with $m ≥ 1$, $j ≥ 1$), ordered by empirical frequency. This structure yields:
 
 - Prefix-free codes with no explicit tree;
 - Very small, deterministic headers;
@@ -19,7 +19,7 @@ The compressor assigns each symbol to a bit pattern of the form 0^m 1^j (with m 
 - ```cycle_based_compressor.py```:
   Python implementation with compress and decompress functions, plus an educational verbose mode.
 
-- Article_IoT_Compressor-12.pdf (link in future):
+- *Cycle-Based Compressor* (link in future):
   Full paper describing the algorithm, theoretical properties, and experiments.
 
 ## Algorithm Summary
