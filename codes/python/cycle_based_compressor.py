@@ -1,5 +1,5 @@
 """
-Cycled-Based Compressor
+Cycle-Based Compressor
 Ian dos Anjos Melo Aguiar
 """
 
